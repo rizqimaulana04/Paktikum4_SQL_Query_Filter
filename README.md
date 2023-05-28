@@ -17,56 +17,56 @@
     ```sql
     SELECT * FROM pegawai WHERE gaji <> 2000000 AND gaji <> 1250000;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/3.png)<br>
 2. Tampilkan pegawai yang tunjangannya NULL!
   - Perintah
     ```sql
     SELECT * FROM pegawai WHERE tunjangan IS NULL;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/4.png)<br>
 3. Tampilkan pegawai yang tunjangannya tidak NULL!
   - Perintah
     ```sql
     SELECT * FROM pegawai WHERE tunjangan IS NOT NULL;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/5.png)<br>
 4. Tampilkan/hitung jumlah baris/record tabel pegawai!
   - Perintah
     ```sql
     SELECT COUNT(*) AS jumlah_baris FROM pegawai;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/6.png)<br>
 5. Tampilkan/hitung jumlah total gaji di tabel pegawai!
   - Perintah
     ```sql
     SELECT SUM(gaji) AS total_gaji FROM pegawai;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/7.png)<br>
 6. Tampilkan/hitung jumlah rata-rata gaji pegawai!
   - Perintah
     ```sql
     SELECT AVG(gaji) AS rata_gaji FROM pegawai
     ```
-  - Output
+  - Output<br>
     ![img](gambar/8.png)<br>
 7. Tampilkan gaji terkecil!
   - Perintah
     ```sql
     SELECT MIN(gaji) AS gaji_terkecil FROM pegawai;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/9.png)<br>
 8. Tampilkan gaji terbesar!
   - Perintah
     ```sql
     SELECT MAX(gaji) AS gaji_terbesar FROM pegawai;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/10.png)<br>
 
 
@@ -78,21 +78,21 @@
     ```sql
     SELECT owner, COUNT(*) AS jumlah_hewan FROM pet GROUP BY owner;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/12.png)<br>
 2. Tampilkan jumlah hewan berdasarkan spesies!
   - Perintah
     ```sql
     SELECT species, COUNT(*) AS jumlah_hewan FROM pet GROUP BY species;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/13.png)<br>
 3. Tampilkan jumlah hewan berdasarkan jenis kelamin!
   - Perintah
     ```sql
     SELECT sex, COUNT(*) AS jumlah_hewan FROM pet GROUP BY sex;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/14.png)<br>
 4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin!
   - Perintah
@@ -100,7 +100,7 @@
     SELECT species,sex, COUNT(*) AS jumlah_hewan FROM pet
     GROUP BY species,sex;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/15.png)<br>
 5. Tampilkan jumlah hewan berdasarkan spesies (cat dan dog saja) dan jenis kelamin!
   - Perintah
@@ -109,7 +109,7 @@
     WHERE species IN('Cat','Dog')
     GROUP BY species,sex;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/16.png)<br>
 6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja!
   - Perintah
@@ -118,7 +118,7 @@
     WHERE sex IN('f','m')
     GROUP BY sex;
     ```
-  - Output
+  - Output<br>
     ![img](gambar/17.png)<br>
 
 ### **Kesimpulan**
