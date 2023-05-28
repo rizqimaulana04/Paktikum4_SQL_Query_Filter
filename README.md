@@ -6,7 +6,7 @@
 
 - **MEMBUAT DATABASE & TABEL PEGAWAI**<br>
 1. Buat create tabel databases terlebih dahulu, disini saya membuat database dengan nama latihan4 seperti yang terlihat di gambar<br>
-2. Lalu create table pegwai dengan mengisi (id_pegawai, nama_depan, nama_belakang,email, tlp, tgl_kontrak, id_job, gaji, dan tunjangan) seperti yang terlihat di gambar<br>
+2. Lalu create table pegawai dengan mengisi (id_pegawai, nama_depan, nama_belakang,email, tlp, tgl_kontrak, id_job, gaji, dan tunjangan) seperti yang terlihat di gambar<br>
 3. Lalu masukan dengan cara insret into pegawai seperti yang terlihat pada gambar untuk melihat hasil tabelnya kita select * from pegawai seperti yang terlihat pada gambar <br>
 ![img](gambar/1.png)<br>
     
