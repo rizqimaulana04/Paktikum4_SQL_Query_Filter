@@ -10,7 +10,7 @@
 3. Lalu masukan dengan cara insret into pegawai seperti yang terlihat pada gambar untuk melihat hasil tabelnya kita select * from pegawai seperti yang terlihat pada gambar <br>
 ![img](gambar/1.png)<br>
     
-- **TABEL pegawai**
+- **TABEL pegawai**<br>
   ![img](gambar/2.png)<br>
 1. Tampilkan pegawai yang gajinya bukan 2.000.000 dan 1.250.000!
   - Perintah
@@ -71,7 +71,7 @@
 
 
 
-- **TABEL hewan**
+- **TABEL pet**<br>
   ![img](gambar/11.png)<br>
 1. Tampilkan jumlah hewan yang dimiliki setiap owner!
   - Perintah
